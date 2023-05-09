@@ -3,6 +3,7 @@ import Container from "./Container";
 
 const Header = () => {
   const theme = useTheme();
+
   return (
     <header
       css={css`

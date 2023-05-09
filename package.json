@@ -4,6 +4,9 @@
   "description": "Gilded Rose kata in TypeScript",
   "scripts": {
     "start": "vite serve",
+    "build": "vite build",
+    "lint": "eslint .; prettier . --check",
+    "fix": "eslint . --fix; prettier . --write",
     "test": "jest",
     "test:watch": "jest --watchAll"
   },

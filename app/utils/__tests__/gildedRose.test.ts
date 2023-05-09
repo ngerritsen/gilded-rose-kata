@@ -6,7 +6,6 @@ import {
   MAX_QUALITY,
   SULFURAS,
 } from "../GildedRose";
-import { Item } from "../types";
 
 describe("Random items", () => {
   test("Reduces quality and sell in of any item", () => {

@@ -1,6 +1,7 @@
 import { css, Global, useTheme } from "@emotion/react";
 import Items from "./Items";
 import Header from "./Header";
+import Footer from "./Footer";
 
 const App = () => {
   const theme = useTheme();
@@ -24,6 +25,7 @@ const App = () => {
       />
       <Header />
       <Items />
+      <Footer />
     </>
   );
 };
